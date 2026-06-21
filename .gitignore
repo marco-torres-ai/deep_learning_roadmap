@@ -1,0 +1,42 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Datasets
+datasets/
+california_housing_files/
+sample_texts/
+
+# Large model weights and checkpoints
+*.keras
+*.h5
+*.pt
+*.pth
+*.weights
+best_*.keras
+resnet_cifar10.h5
+my_keras_model.h5
+yolov8n.pt
+
+# TensorBoard logs and outputs
+runs/
+my_logs/
+tf_logs/
+logs/
+
+# Images / local testing files
+bus.jpg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
